@@ -50,6 +50,6 @@ flutter:
   uses-material-design: true
 
   # لا تنسى مستقبلاً تضيف مسارات الـ Assets هون متل الـ JSON والـ SVGs:
-  # assets:
-  #   - assets/json/
-  #   - assets/icons/
+  assets:
+      - assets/images/
+#     - assets/icons/
