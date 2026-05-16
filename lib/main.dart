@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nusuk/features/home/presentation/page/home_page.dart';
 
 void main() {
@@ -10,6 +11,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomePage());
+    return ScreenUtilInit(
+      designSize: const Size(414, 930),
+      enableScaleText: () => false,
+      fontSizeResolver: (fontSize, instance) {
+        return fontSize.toDouble();
+      },
+      minTextAdapt: true,
+      splitScreenMode: true,
+      child: MaterialApp(debugShowCheckedModeBanner: false, home: HomePage()),
+    );
   }
 }
