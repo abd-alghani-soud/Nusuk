@@ -1,10 +1,68 @@
 import 'package:flutter/material.dart';
+import 'package:nusuk/core/constants/my_colors.dart';
+import 'package:nusuk/features/splash/presentation/page/get_started_page.dart';
+import 'custom_gridview.dart';
 
 class HomePageBody extends StatelessWidget {
-  const HomePageBody({super.key});
+  HomePageBody({super.key});
+
+  final List<Item> menuItem = [
+    Item(
+      title: 'سنن الحج',
+      imageUrl: 'assets/images/sunn.jpg',
+      navigationPage: GetStartedPage(),
+    ),
+    Item(
+      title: 'أركان الحج',
+      imageUrl: 'assets/images/arkan.jpg',
+      navigationPage: GetStartedPage(),
+    ),
+    Item(
+      title: 'دليل الحج',
+      imageUrl: 'assets/images/dalil.jpg',
+      navigationPage: GetStartedPage(),
+    ),
+    Item(
+      title: 'فرائض الحج',
+      imageUrl: 'assets/images/fraed.jpg',
+      navigationPage: GetStartedPage(),
+    ),
+  ];
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: MyColors.primary,
+      body: Column(
+        children: [
+          SizedBox(height: MediaQuery.of(context).size.height * .3),
+          Expanded(
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(18),
+                topRight: Radius.circular(18),
+              ),
+              child: Container(
+                color: MyColors.background,
+                width: double.infinity,
+                child: CustomGridView(menuItem: menuItem),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
+}
+
+class Item {
+  final String title;
+  final String imageUrl;
+  final Widget navigationPage;
+
+  Item({
+    required this.title,
+    required this.imageUrl,
+    required this.navigationPage,
+  });
 }
