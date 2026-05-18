@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
-import 'package:nusuk/features/splash/presentation/page/get_started_page.dart';
+import 'package:nusuk/features/home/presentation/page/guid_page.dart';
+import 'package:nusuk/features/home/presentation/page/pillars_page.dart';
+import 'package:nusuk/features/home/presentation/page/rituals_page.dart';
+import 'package:nusuk/features/home/presentation/page/sunnahs_page.dart';
 import 'custom_gridview.dart';
 
 class HomePageBody extends StatelessWidget {
@@ -10,22 +13,22 @@ class HomePageBody extends StatelessWidget {
     Item(
       title: 'سنن الحج',
       imageUrl: 'assets/images/sunn.jpg',
-      navigationPage: GetStartedPage(),
+      navigationPage: SunnahsPage(),
     ),
     Item(
       title: 'أركان الحج',
       imageUrl: 'assets/images/arkan.jpg',
-      navigationPage: GetStartedPage(),
+      navigationPage: PillarsPage(),
     ),
     Item(
       title: 'دليل الحج',
       imageUrl: 'assets/images/dalil.jpg',
-      navigationPage: GetStartedPage(),
+      navigationPage: GuidPage(),
     ),
     Item(
       title: 'فرائض الحج',
       imageUrl: 'assets/images/fraed.jpg',
-      navigationPage: GetStartedPage(),
+      navigationPage: RitualsPage(),
     ),
   ];
 
