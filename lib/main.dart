@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:nusuk/features/splash/presentation/page/splash_page.dart';
+import 'package:nusuk/features/splash/presentation/page/get_started_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,10 @@ class MyApp extends StatelessWidget {
       },
       minTextAdapt: true,
       splitScreenMode: true,
-      child: MaterialApp(debugShowCheckedModeBanner: false, home: SplashPage()),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: GetStartedPage(),
+      ),
     );
   }
 }
