@@ -5,6 +5,7 @@ class MyImages {
 
   /////////////// main page \\\\\\\\\\\\\\\\\
   static const String mainPhoto = 'assets/images/home_page_image.jpg';
+  static const String kaabaLogo = 'assets/images/kaaba_logo.jpg';
 
   /////////////// arkan alhaj page \\\\\\\\\\\\\\\\\
   static const String ruken1 = 'assets/images/arkan_alhaj/1.jpg';

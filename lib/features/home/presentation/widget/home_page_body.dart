@@ -40,7 +40,24 @@ class HomePageBody extends StatelessWidget {
       backgroundColor: MyColors.primary,
       body: Column(
         children: [
-          SizedBox(height: MediaQuery.of(context).size.height * .3),
+          SizedBox(
+            height: MediaQuery.of(context).size.height * .3,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(MyImages.kaabaLogo,height: 150,width: 150,),
+
+                Text(
+                  'دليل الحج الإلكتروني',
+                  style: TextStyle(fontSize: 28, color: MyColors.background),
+                ),
+                Text(
+                  'Hajj-Guide',
+                  style: TextStyle(fontSize: 28, color: MyColors.background),
+                ),
+              ],
+            ),
+          ),
           Expanded(
             child: ClipRRect(
               borderRadius: BorderRadius.only(
