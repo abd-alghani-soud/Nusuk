@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
+import 'package:nusuk/core/constants/my_images.dart';
 import 'package:nusuk/features/home/data/models/menu_item_model.dart';
 import 'package:nusuk/features/home/presentation/page/dalel_alhaj_page.dart';
 import 'package:nusuk/features/home/presentation/page/alarkan_page.dart';
@@ -13,22 +14,22 @@ class HomePageBody extends StatelessWidget {
   final List<MenuItemModel> menuItem = [
     MenuItemModel(
       title: 'سنن الحج',
-      imageUrl: 'assets/images/sunn.jpg',
+      image: MyImages.sunn,
       navigationPage: AlsunnanPage(),
     ),
     MenuItemModel(
       title: 'أركان الحج',
-      imageUrl: 'assets/images/arkan.jpg',
+      image: MyImages.arkan,
       navigationPage: AlarkanPage(),
     ),
     MenuItemModel(
       title: 'دليل الحج',
-      imageUrl: 'assets/images/dalil.jpg',
+      image: MyImages.dalil,
       navigationPage: DalelAlhajPage(),
     ),
     MenuItemModel(
       title: 'فرائض الحج',
-      imageUrl: 'assets/images/fraed.jpg',
+      image: MyImages.fraed,
       navigationPage: AlfaraedPage(),
     ),
   ];
@@ -58,5 +59,3 @@ class HomePageBody extends StatelessWidget {
     );
   }
 }
-
-

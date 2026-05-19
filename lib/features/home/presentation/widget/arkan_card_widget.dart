@@ -85,11 +85,7 @@ class ArkanCardWidget extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Center(
-                child: Icon(
-                  ruken.icon,
-                  size: 45,
-                  color: MyColors.primary.withOpacity(0.8),
-                ),
+                child: Image.asset(ruken.image ?? '', width: 100, height: 100),
               ),
             ),
           ],

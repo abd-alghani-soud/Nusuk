@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
+import 'package:nusuk/core/constants/my_images.dart';
 import 'package:nusuk/features/home/presentation/page/home_page.dart';
 
-class GetStartedBod extends StatelessWidget {
-  const GetStartedBod({super.key});
+class GetStartedBody extends StatelessWidget {
+  const GetStartedBody({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,7 @@ class GetStartedBod extends StatelessWidget {
         Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/images/home_page_image.jpg'),
+              image: AssetImage(MyImages.mainPhoto),
               fit: BoxFit.fill,
             ),
           ),

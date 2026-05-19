@@ -23,7 +23,7 @@ class CustomGridView extends StatelessWidget {
         return Padding(
           padding: EdgeInsets.all(8.0),
           child: CustomGridViewItem(
-            imageUrl: menuItem[index].imageUrl,
+            imageUrl: menuItem[index].image,
             title: menuItem[index].title,
             onTap: () {
               Navigator.push(

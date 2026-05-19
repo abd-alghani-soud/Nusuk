@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class MenuItemModel {
   final String title;
-  final String imageUrl;
+  final String image;
   final Widget navigationPage;
 
   MenuItemModel({
     required this.title,
-    required this.imageUrl,
+    required this.image,
     required this.navigationPage,
   });
 }
