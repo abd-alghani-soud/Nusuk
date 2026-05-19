@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:nusuk/features/splash/presentation/page/get_started_page.dart';
+import 'package:nusuk/core/utils/theme/light/light_theme.dart';
+import 'features/main/presentation/page/get_started_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,10 +20,16 @@ class MyApp extends StatelessWidget {
       },
       minTextAdapt: true,
       splitScreenMode: true,
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: GetStartedPage(),
-      ),
+      builder: (context, child) {
+        return MaterialApp(
+          title: 'Nusuk',
+          theme: MaterialTheme("Amiri").light(),
+          darkTheme: MaterialTheme("Amiri").dark(),
+          themeMode: ThemeMode.light,
+          debugShowCheckedModeBanner: false,
+          home: const GetStartedPage(),
+        );
+      },
     );
   }
 }

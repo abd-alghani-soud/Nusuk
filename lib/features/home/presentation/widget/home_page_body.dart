@@ -1,34 +1,35 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
-import 'package:nusuk/features/home/presentation/page/guid_page.dart';
-import 'package:nusuk/features/home/presentation/page/pillars_page.dart';
-import 'package:nusuk/features/home/presentation/page/rituals_page.dart';
-import 'package:nusuk/features/home/presentation/page/sunnahs_page.dart';
+import 'package:nusuk/features/home/data/models/menu_item_model.dart';
+import 'package:nusuk/features/home/presentation/page/dalel_alhaj_page.dart';
+import 'package:nusuk/features/home/presentation/page/alarkan_page.dart';
+import 'package:nusuk/features/home/presentation/page/alfaraed_page.dart';
+import 'package:nusuk/features/home/presentation/page/alsunnan_page.dart';
 import 'custom_gridview.dart';
 
 class HomePageBody extends StatelessWidget {
   HomePageBody({super.key});
 
-  final List<Item> menuItem = [
-    Item(
+  final List<MenuItemModel> menuItem = [
+    MenuItemModel(
       title: 'سنن الحج',
       imageUrl: 'assets/images/sunn.jpg',
-      navigationPage: SunnahsPage(),
+      navigationPage: AlsunnanPage(),
     ),
-    Item(
+    MenuItemModel(
       title: 'أركان الحج',
       imageUrl: 'assets/images/arkan.jpg',
-      navigationPage: PillarsPage(),
+      navigationPage: AlarkanPage(),
     ),
-    Item(
+    MenuItemModel(
       title: 'دليل الحج',
       imageUrl: 'assets/images/dalil.jpg',
-      navigationPage: GuidPage(),
+      navigationPage: DalelAlhajPage(),
     ),
-    Item(
+    MenuItemModel(
       title: 'فرائض الحج',
       imageUrl: 'assets/images/fraed.jpg',
-      navigationPage: RitualsPage(),
+      navigationPage: AlfaraedPage(),
     ),
   ];
 
@@ -58,14 +59,4 @@ class HomePageBody extends StatelessWidget {
   }
 }
 
-class Item {
-  final String title;
-  final String imageUrl;
-  final Widget navigationPage;
 
-  Item({
-    required this.title,
-    required this.imageUrl,
-    required this.navigationPage,
-  });
-}

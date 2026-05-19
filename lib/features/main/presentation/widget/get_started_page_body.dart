@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
-import '../../../../home/presentation/page/home_page.dart';
+import 'package:nusuk/features/home/presentation/page/home_page.dart';
 
 class GetStartedBod extends StatelessWidget {
   const GetStartedBod({super.key});
@@ -28,16 +28,16 @@ class GetStartedBod extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => HomePage()),
               );
             },
-            child: Text(
-              'إبدأ الرحلة',
-              style: TextStyle(color: MyColors.border, fontSize: 32),
-            ),
             style: ElevatedButton.styleFrom(
               backgroundColor: MyColors.primary,
               padding: EdgeInsets.symmetric(vertical: 8),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(22),
               ),
+            ),
+            child: Text(
+              'إبدأ الرحلة',
+              style: TextStyle(color: MyColors.border, fontSize: 32),
             ),
           ),
         ),

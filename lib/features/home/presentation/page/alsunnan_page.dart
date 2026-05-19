@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 
-class SunnahsPage extends StatelessWidget {
-  const SunnahsPage({super.key});
+class AlsunnanPage extends StatelessWidget {
+  const AlsunnanPage({super.key});
 
   @override
   Widget build(BuildContext context) {
