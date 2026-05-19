@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class AlarkanItemModel {
   final String number;
   final String title;
@@ -7,10 +5,9 @@ class AlarkanItemModel {
   final String image;
 
   AlarkanItemModel({
-    required  this.image,
+    required this.image,
     required this.number,
     required this.title,
     required this.description,
-
   });
 }
