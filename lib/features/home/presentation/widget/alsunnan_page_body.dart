@@ -17,6 +17,6 @@ class AlsunnanPageBody extends StatelessWidget {
           return ArkanCardWidget(ruken: sunnanList[index]);
         },
       ),
-    ); ;
+    );
   }
 }

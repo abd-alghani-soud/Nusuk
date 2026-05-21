@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <g id="sky-bg">
+    <path d="M 60 380 A 240 240 0 0 1 540 380 Z" fill="#f3a661" />
+    <path d="M 95 290 A 240 240 0 0 1 505 290 Z" fill="#ebb279" />
+    <path d="M 120 220 C 140 200, 180 200, 200 220 C 215 210, 245 215, 250 235 L 110 235 Z" fill="#cc804c" opacity="0.6" />
+    <path d="M 370 200 C 390 185, 420 185, 440 200 C 455 190, 480 195, 485 215 L 355 215 Z" fill="#cc804c" opacity="0.6" />
+  </g>
+
+  <path d="M 50 375 C 150 360, 450 360, 550 375 L 550 520 L 50 520 Z" fill="#e0be8d" />
+
+  <g id="arafat-mountain">
+    <path d="M 160 380 L 300 150 L 440 380 Z" fill="#266056" stroke="#1e3b34" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 240 380 L 300 150 L 350 380 Z" fill="#1f4d45" />
+    <path d="M 300 150 L 265 205 L 285 195 L 300 215 L 320 195 L 335 205 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="300" y="275" font-family="'Cairo', 'Arial', sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">جبل عرفة</text>
+  </g>
+
+  <g id="left-tent">
+    <path d="M 60 370 L 135 250 L 210 370 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 135 250 L 135 370 L 210 370 Z" fill="#cedbd7" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 100 370 L 135 300 L 170 370 Z" fill="#194039" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 60 370 C 90 375, 180 375, 210 370 L 210 400 L 60 400 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 60 370 L 95 400 M 210 370 L 175 400" stroke="#1e3b34" stroke-width="7" />
+  </g>
+
+  <g id="right-tent">
+    <path d="M 390 370 L 465 250 L 540 370 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 465 250 L 465 370 L 540 370 Z" fill="#cedbd7" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 430 370 L 465 300 L 500 370 Z" fill="#194039" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 390 370 C 420 375, 510 375, 540 370 L 540 400 L 390 400 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="7" stroke-linejoin="round" />
+    <path d="M 390 370 L 425 400 M 540 370 L 505 400" stroke="#1e3b34" stroke-width="7" />
+  </g>
+
+  <g id="pilgrims-crowd">
+    <circle cx="100" cy="410" r="14" fill="#cbd3d4" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 80 460 C 80 430, 120 430, 120 460 Z" fill="#cbd3d4" stroke="#1e3b34" stroke-width="5" />
+
+    <circle cx="150" cy="415" r="14" fill="#be9252" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 130 465 C 130 435, 170 435, 170 465 Z" fill="#be9252" stroke="#1e3b34" stroke-width="5" />
+
+    <circle cx="200" cy="410" r="14" fill="#ffffff" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 180 460 C 180 430, 220 430, 220 460 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="5" />
+
+    <circle cx="250" cy="415" r="14" fill="#cbd3d4" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 230 465 C 230 435, 270 435, 270 465 Z" fill="#cbd3d4" stroke="#1e3b34" stroke-width="5" />
+
+    <circle cx="350" cy="415" r="14" fill="#ffffff" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 330 465 C 330 435, 370 435, 370 465 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="5" />
+
+    <circle cx="400" cy="410" r="14" fill="#be9252" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 380 460 C 380 430, 420 430, 420 460 Z" fill="#be9252" stroke="#1e3b34" stroke-width="5" />
+
+    <circle cx="450" cy="415" r="14" fill="#cbd3d4" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 430 465 C 430 435, 470 435, 470 465 Z" fill="#cbd3d4" stroke="#1e3b34" stroke-width="5" />
+
+    <circle cx="500" cy="410" r="14" fill="#ffffff" stroke="#1e3b34" stroke-width="4" />
+    <path d="M 480 460 C 480 430, 520 430, 520 460 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="5" />
+  </g>
+
+  <g id="center-pilgrim">
+    <path d="M 270 480 C 255 480, 245 500, 245 550 L 355 550 L 355 480 Z" fill="#e5b887" stroke="#1e3b34" stroke-width="8" stroke-linejoin="round" />
+    <path d="M 255 500 C 265 495, 295 480, 355 480 L 355 550 L 250 550 C 248 535, 250 515, 255 500 Z" fill="#ffffff" stroke="#1e3b34" stroke-width="8" stroke-linejoin="round" />
+    <path d="M 260 505 L 330 545" stroke="#1e3b34" stroke-width="4" stroke-linecap="round" />
+    <path d="M 285 490 L 350 525" stroke="#1e3b34" stroke-width="4" stroke-linecap="round" />
+    
+    <circle cx="300" cy="440" r="20" fill="#e5b887" stroke="#1e3b34" stroke-width="8" />
+    <path d="M 280 440 C 280 455, 290 463, 300 463 C 310 463, 320 455, 320 440 C 320 448, 312 456, 300 456 C 288 456, 280 448, 280 440 Z" fill="#1e3b34" />
+    <path d="M 280 436 C 280 422, 320 422, 320 436 C 314 427, 286 427, 280 436 Z" fill="#1e3b34" />
+  </g>
+</svg>

@@ -51,6 +51,10 @@ flutter:
 
   # لا تنسى مستقبلاً تضيف مسارات الـ Assets هون متل الـ JSON والـ SVGs:
   assets:
-      - assets/images/
-      - assets/images/arkan_alhaj/
+    - assets/images/
+    - assets/images/arkan_alhaj/
+    - assets/images/sunnan_alhaj/
+    - assets/svgs/
+    - assets/svgs/sunnan_alhaj/
+    - assets/svgs/arkan_alhaj/
 #     - assets/icons/

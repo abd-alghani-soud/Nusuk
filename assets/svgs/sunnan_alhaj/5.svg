@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <g fill="#c4b28c" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 22 51 L 32 63 L 29 65 L 34 71 L 28 73 L 26 68 L 23 70 Z" />
+    <path d="M 15 88 L 28 88 L 27 92 L 35 87 L 27 82 L 28 85 L 15 85 Z" />
+    <path d="M 52 74 L 62 82 L 60 85 L 67 87 L 62 79 L 64 81 Z" />
+    <path d="M 125 53 L 120 63 L 123 65 L 117 71 L 113 65 L 115 67 Z" />
+    <path d="M 130 85 L 120 90 L 122 93 L 115 87 L 123 83 L 121 86 Z" />
+  </g>
+
+  <g id="pilgrim-character">
+    <path d="M 60 70 C 50 71, 41 78, 38 90 C 36 98, 36 115, 36 135 L 48 135 C 48 120, 50 105, 52 95 C 53 90, 58 84, 60 80 Z" fill="#ebdcb9" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round" />
+    
+    <path d="M 60 50 C 60 40, 80 40, 80 50 C 80 61, 77 68, 70 68 C 63 68, 60 61, 60 50 Z" fill="#2c3e50" stroke="#1a1a1a" stroke-width="1.5" />
+    <path d="M 64 48 C 64 42, 76 42, 76 48 C 76 54, 74 59, 70 59 C 66 59, 64 54, 64 48 Z" fill="#ebdcb9" />
+    <path d="M 60 45 C 58 35, 64 25, 70 25 C 76 25, 82 35, 80 45 C 81 44, 59 44, 60 45 Z" fill="#2c3e50" />
+
+    <path d="M 60 70 C 65 68, 74 68, 80 75" fill="none" stroke="#1a1a1a" stroke-width="1.5" />
+    <path d="M 60 70 C 66 76, 73 80, 77 82" fill="none" stroke="#1a1a1a" stroke-width="1.5" />
+
+    <path d="M 77 82 C 82 72, 90 68, 97 73 C 105 77, 112 90, 115 105 C 117 118, 119 128, 119 135 L 50 135 C 50 125, 52 110, 60 97 C 65 89, 71 85, 77 82 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round" />
+    
+    <path d="M 83 77 C 90 85, 98 105, 102 135" fill="none" stroke="#bdc3c7" stroke-width="1.2" />
+    <path d="M 73 84 C 82 95, 90 115, 93 135" fill="none" stroke="#bdc3c7" stroke-width="1.2" />
+    <path d="M 63 94 C 72 105, 78 120, 81 135" fill="none" stroke="#bdc3c7" stroke-width="1" />
+    <path d="M 92 75 C 98 85, 106 105, 110 135" fill="none" stroke="#bdc3c7" stroke-width="1" />
+  </g>
+</svg>

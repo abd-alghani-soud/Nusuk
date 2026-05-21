@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <rect x="2" y="2" width="146" height="146" rx="16" fill="#e2d2b5" />
+  <rect x="6" y="6" width="138" height="138" rx="12" fill="#b0c4de" />
+
+  <path d="M 6 85 L 144 85 L 144 144 L 6 144 Z" fill="#ebdcb9" />
+
+  <path d="M 52 20 C 35 20, 32 40, 48 48 C 34 44, 34 26, 52 20 Z" fill="#f0db7d" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round" />
+
+  <g id="back-left-tent">
+    <path d="M 37 63 L 20 76 L 52 76 Z" fill="#f5ede0" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 20 76 L 17 100 L 50 100 L 52 76 Z" fill="#faf6ee" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+  </g>
+  <g id="back-mid-tent">
+    <path d="M 75 53 L 60 74 L 88 74 Z" fill="#e6dcbf" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 60 74 L 58 92 L 90 92 L 88 74 Z" fill="#ebdcb9" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+  </g>
+
+  <g id="minaret">
+    <rect x="119" y="80" width="12" height="15" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+    <path d="M 121 85 A 3 3 0 0 1 129 85 Z" fill="#bdc3c7"/> <rect x="115" y="62" width="18" height="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+    <rect x="119" y="42" width="11" height="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+    <path d="M 121 48 L 123 42 L 126 42 L 128 48 Z" fill="#bdc3c7"/>
+    <path d="M 118 42 C 118 32, 131 32, 131 42 Z" fill="#f0db7d" stroke="#1a1a1a" stroke-width="1.2"/>
+    <path d="M 124 32 L 124 24" stroke="#1a1a1a" stroke-width="1" />
+    <path d="M 124 24 C 122 24, 122 27, 124 28 C 125 27, 125 25, 124 24" fill="#f0db7d" stroke="#1a1a1a" stroke-width="0.8"/>
+  </g>
+
+  <g id="front-right-tent">
+    <path d="M 97 53 L 72 73 L 122 73 Z" fill="#ebdcb9" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 72 73 L 77 106 L 126 106 L 122 73 Z" fill="#f2e6c9" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 92 106 L 97 80 L 102 106 L 98 90 Z" fill="#ebdcb9" stroke="#1a1a1a" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+  
+  <g id="front-left-tent">
+    <path d="M 57 66 L 35 84 L 76 84 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 35 84 L 31 112 L 80 112 L 76 84 Z" fill="#fafafa" stroke="#1a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 50 112 L 56 88 L 62 112 L 57 96 Z" fill="#ebdcb9" stroke="#1a1a1a" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+
+  <g id="arabic-text" fill="#1a1a1a">
+    <path d="M 91 127 C 91 124, 87 124, 87 127 C 87 130, 91 130, 91 127 Z" />
+    <path d="M 89 128 L 81 128" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 82 128 C 76 128, 70 134, 65 134 C 59 134, 57 128, 62 124 C 65 122, 63 119, 60 121 C 54 125, 54 137, 65 137 C 73 137, 78 130, 82 128 Z" />
+    <circle cx="76" cy="120" r="1.5" />
+  </g>
+</svg>
