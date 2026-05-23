@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nusuk/core/constants/my_strings.dart';
 import '../../data/models/hajj_step_models.dart';
 import '../widget/hajj_painter.dart';
 import 'hajjInfo_bottom_sheet.dart';
@@ -16,87 +17,75 @@ class _DalelAlhajPageBodyState extends State<DalelAlhajPageBody> {
   int currentStepIndex = 0;
   final List<HajjStep> steps = [
     HajjStep(
-      title: 'الإحرام والنية',
-      description:
-          'الاغتسال، لبس ملابس الإحرام، وعقد النية بالدخول في النسك من الميقات أو بمكة.',
-      location: 'الميقات / مكة',
+      title: MyStrings.dalel1,
+      description: MyStrings.dDalel1,
+      location: MyStrings.lDalel1,
       position: const Offset(80, 100),
     ),
     HajjStep(
-      title: 'طواف القدوم',
-      description:
-          'الطواف حول الكعبة المشرفة 7 أشواط فور الوصول إلى مكة المكرمة وتحية البيت العتيق.',
-      location: 'المسجد الحرام',
+      title: MyStrings.dalel2,
+      description: MyStrings.dDalel2,
+      location: MyStrings.lDalel2,
       position: const Offset(280, 220),
     ),
     HajjStep(
-      title: 'السعي',
-      description:
-          'السعي بين الصفا والمروة 7 أشواط كاملة تبدأ من الصفا وتنتهي بالمروة.',
-      location: 'المسعى',
+      title: MyStrings.dalel3,
+      description: MyStrings.dDalel3,
+      location: MyStrings.lDalel3,
       position: const Offset(90, 340),
     ),
     HajjStep(
-      title: 'يوم التروية (8 ذو الحجة)',
-      description:
-          'الذهاب إلى منى في صباح هذا اليوم والمبيت بها وصلاة الظهر والعصر والمغرب والعشاء والفجر قصراً بلا جمع.',
-      location: 'مشعر منى',
+      title: MyStrings.dalel4,
+      description: MyStrings.dDalel4,
+      location: MyStrings.lDalel4,
       position: const Offset(290, 460),
     ),
     HajjStep(
-      title: 'الوقوف بعرفة (9 ذو الحجة)',
-      description:
-          'الانتقال إلى عرفة بعد شروق الشمس، والوقوف بها والدعاء والتضرع إلى غروب الشمس (ركن الحج الأعظم).',
-      location: 'مشعر عرفات',
+      title: MyStrings.dalel5,
+      description: MyStrings.dDalel5,
+      location: MyStrings.lDalel5,
       position: const Offset(140, 580),
     ),
     HajjStep(
-      title: 'المزدلفة',
-      description:
-          'النفرة إلى مزدلفة بعد غروب شمس يوم عرفة، صلاة المغرب والعشاء جمعاً وقصراً، والمبيت بها وجمع الحصى.',
-      location: 'مشعر مزدلفة',
+      title: MyStrings.dalel6,
+      description: MyStrings.dDalel6,
+      location: MyStrings.lDalel6,
       position: const Offset(280, 700),
     ),
     HajjStep(
-      title: 'رمي جمرة العقبة الكبرى',
-      description:
-          'العودة إلى منى صباح يوم العيد (10 ذو الحجة) ورمي جمرة العقبة الكبرى بـ 7 حصيات متعاقبات مع التكبير.',
-      location: 'جسر الجمرات - منى',
+      title: MyStrings.dalel7,
+      description: MyStrings.dDalel7,
+      location: MyStrings.lDalel7,
       position: const Offset(80, 820),
     ),
     HajjStep(
-      title: 'النحر والهدي',
-      description:
-          'ذبح الهدي (الأنعام) شكرًا لله تعالى، ويجوز للحاج توكيل المؤسسات الرسمية بذلك.',
-      location: 'مسالخ منى',
+      title: MyStrings.dalel8,
+      description: MyStrings.dDalel8,
+      location: MyStrings.lDalel8,
       position: const Offset(260, 940),
     ),
     HajjStep(
-      title: 'الحلق أو التقصير',
-      description:
-          'حلق شعر الرأس بالكامل أو تقصيره للرجال (والحلق أفضل)، وتقصير أطراف الشعر قدر أنملة للنساء، وبهذا يتحلل التحلل الأول.',
-      location: 'منى / مكة',
+      title: MyStrings.dalel9,
+      description: MyStrings.dDalel9,
+      location: MyStrings.lDalel9,
       position: const Offset(100, 1060),
     ),
     HajjStep(
-      title: 'طواف الإفاضة',
-      description:
-          'النزول إلى مكة لعمل طواف الإفاضة (ركن) والسعي إن لم يكن قد سعى، وبهذا يتحلل الحاج التحلل الأكبر كاملاً.',
-      location: 'المسجد الحرام',
+      title: MyStrings.dalel10,
+      description: MyStrings.dDalel10,
+      location: MyStrings.lDalel10,
       position: const Offset(290, 1180),
     ),
     HajjStep(
-      title: 'أيام التشريق ورمي الجمرات',
-      description:
-          'المبيت في منى أيام التشريق، ورمي الجمرات الثلاث (الصغرى، الوسطى، الكبرى) كل يوم بعد الزوال بـ 7 حصيات لكل جمرة.',
-      location: 'جسر الجمرات',
+      title: MyStrings.dalel11,
+      description: MyStrings.dDalel11,
+      location: MyStrings.lDalel11,
       position: const Offset(120, 1300),
     ),
     HajjStep(
-      title: 'طواف الوداع',
-      description:
-          'آخر ما يفعله الحاج قبل مغادرة مكة المكرمة مباشرة، يطوف 7 أشواط حول الكعبة ليكون آخر عهده بالبيت.',
-      location: 'المسجد الحرام',
+      title: MyStrings.dalel12,
+      description: MyStrings.dDalel12,
+      location: MyStrings.lDalel12,
       position: const Offset(240, 1420),
     ),
   ];
