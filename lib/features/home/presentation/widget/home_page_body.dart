@@ -42,11 +42,14 @@ class HomePageBody extends StatelessWidget {
       body: Column(
         children: [
           SizedBox(
-            height: MediaQuery.of(context).size.height * .3,
+            height: MediaQuery
+                .of(context)
+                .size
+                .height * .3,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-               SvgPicture.asset(MyImages.kaabaLogo,height: 100,width: 80),
+                SvgPicture.asset(MyImages.kaabaLogo, height: 100, width: 80),
 
                 Text(
                   'دليل الحج الإلكتروني',
