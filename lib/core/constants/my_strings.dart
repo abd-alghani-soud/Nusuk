@@ -59,4 +59,21 @@ class MyStrings {
   static const String ruken6 = 'الترتيب';
 
   static const String dRuken6 = 'أداء الأركان السابقة بالترتيب الشرعي المحدد.';
+
+  /////////////// faraed page \\\\\\\\\\\\\\\\\
+  static const String fared1 = 'الإحرام';
+  static const String dFared1 =
+      'هو نية الدخول في نسك الحج. ولا يعتبر الإحرام مجرد ارتداء ملابس الإحرام، بل هو نية قلبية جازمة بالبدء في أعمال الحج.';
+
+  static const String fared2 = 'الوقوف بعرفة';
+  static const String dFared2 =
+      'هو الركن الأعظم في الحج، لقول النبي محمد ﷺ: «الحَجُّ عَرَفَةُ».';
+
+  static const String fared3 = 'طواف الإفاضة';
+  static const String dFared3 =
+      'ويسمى أيضاً (طواف الزيارة) أو (طواف الفرض)، وهو الطواف الذي يؤديه الحاج بعد فيضانه من المزدلفة والذهاب إلى مكة.';
+
+  static const String fared4 = 'السعي بين الصفا والمروة';
+  static const String dFared4 =
+      'وهو السعي سبعة أشواط يبدأ فيها الحاج من الصفا ويختم بالمروة.';
 }

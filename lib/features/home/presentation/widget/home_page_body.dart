@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_images.dart';
 import 'package:nusuk/features/home/data/models/menu_item_model.dart';
@@ -45,7 +46,7 @@ class HomePageBody extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(MyImages.kaabaLogo,height: 150,width: 150,),
+               SvgPicture.asset(MyImages.kaabaLogo,height: 100,width: 80),
 
                 Text(
                   'دليل الحج الإلكتروني',

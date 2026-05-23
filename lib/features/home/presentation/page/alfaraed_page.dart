@@ -3,6 +3,7 @@ import 'package:nusuk/features/home/presentation/widget/alfaraed_page_body.dart'
 
 import '../../../../core/constants/my_colors.dart';
 import '../../../../core/constants/my_images.dart';
+import '../../../../core/constants/my_strings.dart';
 import '../../data/models/alarkan_item_model.dart';
 
 class AlfaraedPage extends StatelessWidget {
@@ -12,32 +13,28 @@ class AlfaraedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<AlarkanItemModel> alfaraedList = [
       AlarkanItemModel(
+        image: MyImages.fared1,
         number: '1',
-        title: 'الإحرام',
-        description:
-            'هو نية الدخول في نسك الحج. ولا يعتبر الإحرام مجرد ارتداء ملابس الإحرام، بل هو نية قلبية جازمة بالبدء في أعمال الحج.',
-        image: MyImages.ruken1,
+        title: MyStrings.fared1,
+        description: MyStrings.dFared1,
       ),
       AlarkanItemModel(
-        image: MyImages.ruken2,
+        image: MyImages.fared2,
         number: '2',
-        title: 'الوقوف بعرفة',
-        description:
-            'هو الركن الأعظم في الحج، لقول النبي محمد ﷺ: «الحَجُّ عَرَفَةُ».',
+        title: MyStrings.fared2,
+        description: MyStrings.dFared2,
       ),
       AlarkanItemModel(
-        image: MyImages.ruken3,
+        image: MyImages.fared3,
         number: '3',
-        title: 'طواف الإفاضة',
-        description:
-            'ويسمى أيضاً (طواف الزيارة) أو (طواف الفرض)، وهو الطواف الذي يؤديه الحاج بعد فيضانه من المزدلفة والذهاب إلى مكة.',
+        title: MyStrings.fared3,
+        description: MyStrings.dFared3,
       ),
       AlarkanItemModel(
-        image: MyImages.ruken4,
+        image: MyImages.fared4,
         number: '4',
-        title: 'السعي بين الصفا والمروة',
-        description:
-            'وهو السعي سبعة أشواط يبدأ فيها الحاج من الصفا ويختم بالمروة.',
+        title: MyStrings.fared4,
+        description: MyStrings.dFared4,
       ),
     ];
     return Scaffold(
