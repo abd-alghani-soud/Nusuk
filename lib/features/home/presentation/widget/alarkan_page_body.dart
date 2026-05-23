@@ -4,7 +4,9 @@ import 'package:nusuk/features/home/presentation/widget/arkan_card_widget.dart';
 
 class AlarkanPageBody extends StatelessWidget {
   const AlarkanPageBody({super.key, required this.arkanList});
+
   final List<AlarkanItemModel> arkanList;
+
   @override
   Widget build(BuildContext context) {
     return Directionality(

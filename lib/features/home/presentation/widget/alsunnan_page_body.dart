@@ -4,6 +4,7 @@ import 'package:nusuk/features/home/presentation/widget/arkan_card_widget.dart';
 
 class AlsunnanPageBody extends StatelessWidget {
   const AlsunnanPageBody({super.key, required this.sunnanList});
+
   final List<AlarkanItemModel> sunnanList;
 
   @override
