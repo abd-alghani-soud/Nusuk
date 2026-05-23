@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/features/home/data/models/alarkan_item_model.dart';
 
@@ -6,6 +7,7 @@ class ArkanCardWidget extends StatelessWidget {
   final AlarkanItemModel ruken;
 
   const ArkanCardWidget({super.key, required this.ruken});
+
 
   @override
   Widget build(BuildContext context) {
@@ -82,10 +84,22 @@ class ArkanCardWidget extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            ruken.image.endsWith('.svg')
+                ? Padding(
               padding: const EdgeInsets.all(16.0),
               child: Center(
-                child: Image.asset(ruken.image, width: 100, height: 100),
+                child: SvgPicture.asset(
+                  ruken.image,
+                  height: 80,
+                  width: 80,
+                  placeholderBuilder: (BuildContext context) => const CircularProgressIndicator(),
+                ),
+              ),
+            )
+                : Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Center(
+                child: Image.asset(ruken.image, width: 80, height: 80),
               ),
             ),
           ],

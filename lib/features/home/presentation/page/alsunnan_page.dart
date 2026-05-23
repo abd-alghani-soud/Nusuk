@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_images.dart';
+import 'package:nusuk/core/constants/my_strings.dart';
 import 'package:nusuk/features/home/data/models/alarkan_item_model.dart';
 import 'package:nusuk/features/home/presentation/widget/alsunnan_page_body.dart';
 
@@ -10,51 +11,51 @@ class AlsunnanPage extends StatelessWidget {
   final List<AlarkanItemModel> sunnanList = [
     AlarkanItemModel(
       number: '1',
-      title: 'الاغتسال والتطيب',
-      description: 'تنظيف الجسد والتطيب في البدن قبل عقد نية الإحرام.',
-      image: MyImages.ruken1,
+      title: MyStrings.sunnan1,
+      description: MyStrings.dSunnan1,
+      image: MyImages.sunnan1,
     ),
     AlarkanItemModel(
-      image: MyImages.ruken2,
+      image: MyImages.sunnan2,
       number: '2',
-      title: 'ثياب الإحرام البيضاء',
-      description: 'لبس إزار ورداء أبيضين نظيفين للرجال قبل الدخول في النسك.',
+      title: MyStrings.sunnan2,
+      description: MyStrings.dSunnan2,
     ),
     AlarkanItemModel(
-      image: MyImages.ruken3,
+      image: MyImages.sunnan3,
       number: '3',
-      title: 'التلبية والجهر بها',
-      description: 'قول "لبيك اللهم لبيك..." والجهر بها للرجال والاستمرار حتى رمي جمرة العقبة.',
+      title: MyStrings.sunnan3,
+      description: MyStrings.dSunnan3,
     ),
     AlarkanItemModel(
-      image: MyImages.ruken4,
+      image: MyImages.sunnan4,
       number: '4',
-      title: 'طواف القدوم',
-      description: 'الطواف بالبيت الحرام سبعاً فور الوصول لمكة (للمفرد والقارن).',
+      title: MyStrings.sunnan4,
+      description: MyStrings.dSunnan4,
     ),
     AlarkanItemModel(
-      image: MyImages.ruken5,
+      image: MyImages.sunnan5,
       number: '5',
-      title: 'الاضطباع والرَّمَل',
-      description: 'كشف الكتف الأيمن، وإسراع المشي في الأشواط الثلاثة الأولى من طواف القدوم.',
+      title: MyStrings.sunnan5,
+      description: MyStrings.dSunnan5,
     ),
     AlarkanItemModel(
-      image: MyImages.ruken6,
+      image: MyImages.sunnan6,
       number: '6',
-      title: 'المبيت بمنى يوم التروية',
-      description: 'التوجه إلى منى في اليوم الثامن من ذي الحجة وصلاة الصلوات الخمس بها.',
+      title: MyStrings.sunnan6,
+      description: MyStrings.dSunnan6,
     ),
     AlarkanItemModel(
-      image: MyImages.ruken6,
+      image: MyImages.sunnan7,
       number: '7',
-      title: 'الجمع والقصر بعرفة',
-      description: 'جمع صلاتي الظهر والعصر جمع تقديم وقصراً في وقت الظهر.',
+      title: MyStrings.sunnan7,
+      description: MyStrings.dSunnan7,
     ),
     AlarkanItemModel(
-      image: MyImages.ruken6,
+      image: MyImages.sunnan8,
       number: '8',
-      title: 'المبيت بمزدلفة',
-      description: 'البقاء في مزدلفة ليلة العاشر من ذي الحجة وصلاة الفجر في أول وقتها.',
+      title: MyStrings.sunnan8,
+      description: MyStrings.dSunnan8,
     ),
   ];
 

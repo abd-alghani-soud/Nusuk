@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <path d="M 200 200 C 300 170, 360 170, 430 200" stroke="#6b532f" stroke-width="5" stroke-linecap="round" fill="none" />
+
+  <g id="expanded-main-path">
+    <path d="M 490 200 C 370 230, 270 240, 370 380 C 440 470, 340 530, 230 550 L 40 550 L 40 470 C 190 470, 240 410, 290 350 C 340 290, 340 240, 490 200 Z" fill="#eedcb5" />
+    <path d="M 490 200 C 370 230, 270 240, 370 380 C 440 470, 340 530, 230 550" stroke="#c4ab75" stroke-width="8" stroke-linecap="round" fill="none" />
+    <path d="M 40 470 C 190 470, 240 410, 290 350 C 340 290, 340 240, 490 200" stroke="#c4ab75" stroke-width="8" stroke-linecap="round" fill="none" />
+  </g>
+
+  <g id="left-mountain-safat">
+    <path d="M 140 185 C 160 140, 210 110, 250 120 C 280 130, 310 160, 350 185 C 330 170, 300 150, 270 150 C 230 150, 200 170, 180 185 Z" fill="#9e8552" />
+    <path d="M 54 232 C 70 200, 100 160, 140 155 C 180 150, 210 120, 250 125 C 290 130, 320 180, 380 210 C 390 215, 400 220, 400 228 C 300 235, 180 235, 54 232 Z" fill="#c4ab75" stroke="#6b532f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 100 200 C 120 180, 140 180, 160 195" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 160 170 C 180 155, 210 160, 230 175" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 235 145 C 260 150, 280 170, 310 180" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 240 185 C 270 195, 300 200, 330 210" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <g id="right-mountain-marwat">
+    <path d="M 470 120 C 510 120, 560 160, 590 200 L 480 190 C 470 170, 475 140, 470 120 Z" fill="#9e8552" />
+    <path d="M 490 85 C 530 85, 560 120, 600 150 C 620 165, 625 185, 600 190 C 530 195, 440 195, 385 190 C 385 180, 410 150, 450 145 C 470 140, 480 100, 490 85 Z" fill="#c4ab75" stroke="#6b532f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 430 165 C 450 150, 470 155, 490 170" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 490 115 C 510 110, 530 125, 550 140" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 525 145 C 545 140, 565 155, 580 165" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 475 160 L 510 190" stroke="#6b532f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <ellipse cx="170" cy="518" rx="55" ry="12" fill="#d1be9b" opacity="0.8" />
+
+  <g id="active-runner">
+    <circle cx="200" cy="365" r="18" fill="#c4ab75" stroke="#6b532f" stroke-width="8" />
+    
+    <path d="M 205 415 C 230 415, 250 410, 275 415 C 280 415, 285 425, 260 430 C 240 435, 220 430, 205 435" fill="#c4ab75" stroke="#6b532f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <path d="M 185 415 C 160 415, 145 430, 130 450 C 125 455, 135 462, 145 455 C 160 440, 170 435, 185 430" fill="#c4ab75" stroke="#6b532f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <path d="M 195 410 L 195 460 C 195 460, 220 480, 245 520 C 250 530, 260 525, 250 510 C 230 480, 215 465, 215 450" fill="#c4ab75" stroke="#6b532f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <path d="M 195 450 C 175 470, 160 480, 140 485 C 110 490, 100 495, 105 505 C 115 510, 140 510, 165 495 C 185 480, 195 470, 195 460" fill="#c4ab75" stroke="#6b532f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
