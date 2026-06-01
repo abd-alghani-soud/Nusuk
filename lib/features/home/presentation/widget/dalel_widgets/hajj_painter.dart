@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../data/models/hajj_step_models.dart';
+import '../../../data/models/hajj_step_models.dart';
 
 class HajjPainter extends CustomPainter {
   final List<HajjStep> steps;

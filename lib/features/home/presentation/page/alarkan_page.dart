@@ -2,44 +2,44 @@ import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_images.dart';
 import 'package:nusuk/core/constants/my_strings.dart';
-import 'package:nusuk/features/home/data/models/alarkan_item_model.dart';
-import 'package:nusuk/features/home/presentation/widget/alarkan_page_body.dart';
+import 'package:nusuk/features/home/data/models/card_item_model.dart';
+import 'package:nusuk/features/home/presentation/widget/arkan_widgets/alarkan_page_body.dart';
 
 class AlarkanPage extends StatelessWidget {
   AlarkanPage({super.key});
 
-  final List<AlarkanItemModel> arkanList = [
-    AlarkanItemModel(
+  final List<CardItemModel> arkanList = [
+    CardItemModel(
       number: '1',
       title: MyStrings.ruken1,
       description: MyStrings.dRuken1,
       image: MyImages.ruken1,
     ),
-    AlarkanItemModel(
+    CardItemModel(
       image: MyImages.ruken2,
       number: '2',
       title: MyStrings.ruken2,
       description: MyStrings.dRuken2,
     ),
-    AlarkanItemModel(
+    CardItemModel(
       image: MyImages.ruken3,
       number: '3',
       title: MyStrings.ruken3,
       description: MyStrings.dRuken3,
     ),
-    AlarkanItemModel(
+    CardItemModel(
       image: MyImages.ruken4,
       number: '4',
       title: MyStrings.ruken4,
       description: MyStrings.dRuken4,
     ),
-    AlarkanItemModel(
+    CardItemModel(
       image: MyImages.ruken5,
       number: '5',
       title: MyStrings.ruken5,
       description: MyStrings.dRuken5,
     ),
-    AlarkanItemModel(
+    CardItemModel(
       image: MyImages.ruken6,
       number: '6',
       title: MyStrings.ruken6,

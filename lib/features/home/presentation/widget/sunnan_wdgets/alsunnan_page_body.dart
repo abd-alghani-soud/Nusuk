@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:nusuk/features/home/data/models/alarkan_item_model.dart';
-import 'package:nusuk/features/home/presentation/widget/arkan_card_widget.dart';
+import 'package:nusuk/features/home/data/models/card_item_model.dart';
+import 'package:nusuk/features/home/presentation/widget/nusuk_list_card.dart';
 
 class AlsunnanPageBody extends StatelessWidget {
   const AlsunnanPageBody({super.key, required this.sunnanList});
 
-  final List<AlarkanItemModel> sunnanList;
+  final List<CardItemModel> sunnanList;
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class AlsunnanPageBody extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         itemCount: sunnanList.length,
         itemBuilder: (context, index) {
-          return ArkanCardWidget(ruken: sunnanList[index]);
+          return NusukListCard(item: sunnanList[index]);
         },
       ),
     );

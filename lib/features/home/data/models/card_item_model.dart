@@ -1,10 +1,10 @@
-class AlarkanItemModel {
+class CardItemModel {
   final String number;
   final String title;
   final String description;
   final String image;
 
-  AlarkanItemModel({
+  CardItemModel({
     required this.image,
     required this.number,
     required this.title,

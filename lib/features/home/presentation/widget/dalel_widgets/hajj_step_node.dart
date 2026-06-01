@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../data/models/hajj_step_models.dart';
+import '../../../data/models/hajj_step_models.dart';
 
 class HajjStepNode extends StatelessWidget {
   final HajjStep step;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_strings.dart';
-import '../../data/models/hajj_step_models.dart';
-import '../widget/hajj_painter.dart';
+import '../../../data/models/hajj_step_models.dart';
+import 'hajj_painter.dart';
 import 'hajjInfo_bottom_sheet.dart';
 import 'hajj_step_node.dart';
 

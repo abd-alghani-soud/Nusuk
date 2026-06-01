@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-import '../../data/models/alarkan_item_model.dart';
-import 'arkan_card_widget.dart';
+import '../../../data/models/card_item_model.dart';
+import '../nusuk_list_card.dart';
 
 class AlfaraedPageBody extends StatelessWidget {
   const AlfaraedPageBody({super.key, required this.alfaraedList});
 
-  final List<AlarkanItemModel> alfaraedList;
+  final List<CardItemModel> alfaraedList;
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class AlfaraedPageBody extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         itemCount: alfaraedList.length,
         itemBuilder: (context, index) {
-          return ArkanCardWidget(ruken: alfaraedList[index]);
+          return NusukListCard(item: alfaraedList[index]);
         },
       ),
     );
