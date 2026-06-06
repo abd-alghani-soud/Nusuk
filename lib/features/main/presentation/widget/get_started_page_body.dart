@@ -3,8 +3,6 @@ import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_images.dart';
 import 'package:nusuk/features/home/presentation/page/home_page.dart';
 
-import '../../../alhaj/presentation/page/haj_page.dart';
-
 class GetStartedBody extends StatelessWidget {
   const GetStartedBody({super.key});
 
