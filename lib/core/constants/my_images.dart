@@ -15,7 +15,7 @@ class MyImages {
   static const String ruken5 = 'assets/svgs/arkan_alhaj/5.svg';
   static const String ruken6 = 'assets/svgs/arkan_alhaj/6.svg';
 
-  /////////////// home page \\\\\\\\\\\\\\\\\
+  /////////////// alhaj page \\\\\\\\\\\\\\\\\
   static const String sunn = 'assets/images/sunnan_alhaj/sunn.jpg';
   static const String dalil = 'assets/images/dalil.jpg';
   static const String fraed = 'assets/images/fraed.jpg';
@@ -36,4 +36,10 @@ class MyImages {
   static const String fared2 = 'assets/svgs/fraed_alhaj/2.svg';
   static const String fared3 = 'assets/svgs/fraed_alhaj/3.svg';
   static const String fared4 = 'assets/svgs/fraed_alhaj/4.svg';
+
+  /////////////// navigation bar \\\\\\\\\\\\\\\\\
+  static const String home = 'assets/svgs/navigation_bar/home.svg';
+  static const String alAzkar = 'assets/svgs/navigation_bar/azkar.svg';
+  static const String alBosla = 'assets/svgs/navigation_bar/bosla.svg';
+  static const String alHaj = 'assets/svgs/navigation_bar/haj.svg';
 }

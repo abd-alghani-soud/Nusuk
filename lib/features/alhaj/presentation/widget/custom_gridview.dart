@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nusuk/features/home/data/models/menu_item_model.dart';
-
+import '../../data/models/menu_item_model.dart';
 import 'custom_gridview_item.dart';
 
 class CustomGridView extends StatelessWidget {

@@ -2,7 +2,7 @@ class MyStrings {
   /////////////// main page \\\\\\\\\\\\\\\\\
   static const String start = 'إبدأ الرحلة';
 
-  /////////////// home page \\\\\\\\\\\\\\\\\
+  /////////////// alhaj page \\\\\\\\\\\\\\\\\
   static const String sunnan = 'سنن الحج';
   static const String arkan = 'سنن الحج';
   static const String faraed = 'سنن الحج';
@@ -137,4 +137,10 @@ class MyStrings {
   static const String dDalel12 =
       'آخر ما يفعله الحاج قبل مغادرة مكة المكرمة مباشرة، يطوف 7 أشواط حول الكعبة ليكون آخر عهده بالبيت.';
   static const String lDalel12 = 'المسجد الحرام';
+
+  /////////////// navigation bar \\\\\\\\\\\\\\\\\
+  static const String home = 'الرئيسية';
+  static const String alHaj = 'الحج';
+  static const String alBosla = 'البوصلة';
+  static const String alAzkar = 'الأذكار';
 }

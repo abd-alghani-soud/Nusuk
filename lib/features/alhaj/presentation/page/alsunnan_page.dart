@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_images.dart';
 import 'package:nusuk/core/constants/my_strings.dart';
-import 'package:nusuk/features/home/data/models/card_item_model.dart';
-import 'package:nusuk/features/home/presentation/widget/sunnan_wdgets/alsunnan_page_body.dart';
+import '../../data/models/card_item_model.dart';
+import '../widget/sunnan_wdgets/alsunnan_page_body.dart';
 
 class AlsunnanPage extends StatelessWidget {
   AlsunnanPage({super.key});

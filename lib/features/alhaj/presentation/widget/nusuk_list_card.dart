@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:nusuk/features/home/data/models/card_item_model.dart';
-import 'package:nusuk/features/home/presentation/widget/card_content.dart';
-import 'package:nusuk/features/home/presentation/widget/card_leading_number.dart';
-import 'package:nusuk/features/home/presentation/widget/card_trailing_image.dart';
+import '../../data/models/card_item_model.dart';
+import 'card_content.dart';
+import 'card_leading_number.dart';
+import 'card_trailing_image.dart';
 
 class NusukListCard extends StatelessWidget {
   final CardItemModel item;
