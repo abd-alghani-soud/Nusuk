@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nusuk/features/home/presentation/widget/dalel_widgets/hajj_supplication_button.dart';
 import '../../../data/models/hajj_step_models.dart';
+import 'hajj_supplication_button.dart';
 
 class HajjInfoBottomSheet extends StatelessWidget {
   final HajjStep currentStep;

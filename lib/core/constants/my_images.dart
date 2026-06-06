@@ -15,7 +15,7 @@ class MyImages {
   static const String ruken5 = 'assets/svgs/arkan_alhaj/5.svg';
   static const String ruken6 = 'assets/svgs/arkan_alhaj/6.svg';
 
-  /////////////// home page \\\\\\\\\\\\\\\\\
+  /////////////// alhaj page \\\\\\\\\\\\\\\\\
   static const String sunn = 'assets/images/sunnan_alhaj/sunn.jpg';
   static const String dalil = 'assets/images/dalil.jpg';
   static const String fraed = 'assets/images/fraed.jpg';

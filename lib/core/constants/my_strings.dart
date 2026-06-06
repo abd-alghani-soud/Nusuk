@@ -2,7 +2,7 @@ class MyStrings {
   /////////////// main page \\\\\\\\\\\\\\\\\
   static const String start = 'إبدأ الرحلة';
 
-  /////////////// home page \\\\\\\\\\\\\\\\\
+  /////////////// alhaj page \\\\\\\\\\\\\\\\\
   static const String sunnan = 'سنن الحج';
   static const String arkan = 'سنن الحج';
   static const String faraed = 'سنن الحج';

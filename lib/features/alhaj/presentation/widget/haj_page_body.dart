@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_images.dart';
-import 'package:nusuk/features/home/data/models/menu_item_model.dart';
-import 'package:nusuk/features/home/presentation/page/dalel_alhaj_page.dart';
-import 'package:nusuk/features/home/presentation/page/alarkan_page.dart';
-import 'package:nusuk/features/home/presentation/page/alfaraed_page.dart';
-import 'package:nusuk/features/home/presentation/page/alsunnan_page.dart';
+import '../../data/models/menu_item_model.dart';
+import '../page/alarkan_page.dart';
+import '../page/alfaraed_page.dart';
+import '../page/alsunnan_page.dart';
+import '../page/dalel_alhaj_page.dart';
 import 'custom_gridview.dart';
 
-class HomePageBody extends StatelessWidget {
-  HomePageBody({super.key});
+class HajPageBody extends StatelessWidget {
+  HajPageBody({super.key});
 
   final List<MenuItemModel> menuItem = [
     MenuItemModel(

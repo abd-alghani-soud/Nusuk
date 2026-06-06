@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nusuk/features/home/data/models/card_item_model.dart';
-import 'package:nusuk/features/home/presentation/widget/nusuk_list_card.dart';
+import '../../../data/models/card_item_model.dart';
+import '../nusuk_list_card.dart';
 
 class AlsunnanPageBody extends StatelessWidget {
   const AlsunnanPageBody({super.key, required this.sunnanList});

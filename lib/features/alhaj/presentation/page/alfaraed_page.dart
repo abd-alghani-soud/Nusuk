@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:nusuk/features/home/presentation/widget/faraed_widgets/alfaraed_page_body.dart';
-
 import '../../../../core/constants/my_colors.dart';
 import '../../../../core/constants/my_images.dart';
 import '../../../../core/constants/my_strings.dart';
 import '../../data/models/card_item_model.dart';
+import '../widget/faraed_widgets/alfaraed_page_body.dart';
 
 class AlfaraedPage extends StatelessWidget {
   const AlfaraedPage({super.key});

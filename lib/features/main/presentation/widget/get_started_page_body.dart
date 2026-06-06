@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_images.dart';
-import 'package:nusuk/features/home/presentation/page/home_page.dart';
+
+import '../../../alhaj/presentation/page/haj_page.dart';
+
 
 class GetStartedBody extends StatelessWidget {
   const GetStartedBody({super.key});
@@ -26,7 +28,7 @@ class GetStartedBody extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => HomePage()),
+                MaterialPageRoute(builder: (context) => HajPage()),
               );
             },
             style: ElevatedButton.styleFrom(
