@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/constants/my_colors.dart';
+import 'package:nusuk/core/constants/my_colors.dart';
 import '../widget/dalel_widgets/dalel_alhaj_page_body.dart';
 
 class DalelAlhajPage extends StatefulWidget {

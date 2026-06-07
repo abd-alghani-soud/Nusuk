@@ -7,7 +7,7 @@ import '../page/alarkan_page.dart';
 import '../page/alfaraed_page.dart';
 import '../page/alsunnan_page.dart';
 import '../page/dalel_alhaj_page.dart';
-import 'custom_gridview.dart';
+import '../../../../core/widgets/custom_gridview.dart';
 
 class HajPageBody extends StatelessWidget {
   HajPageBody({super.key});

@@ -42,4 +42,10 @@ class MyImages {
   static const String alAzkar = 'assets/svgs/navigation_bar/azkar.svg';
   static const String alBosla = 'assets/svgs/navigation_bar/bosla.svg';
   static const String alHaj = 'assets/svgs/navigation_bar/haj.svg';
+
+  /////////////// azkar \\\\\\\\\\\\\\\\\
+  static const String zuker1 = 'assets/svgs/azkar/zuker_1.svg';
+  static const String zuker2 = 'assets/svgs/azkar/zuker_2.svg';
+  static const String zuker3 = 'assets/svgs/azkar/zuker_3.svg';
+  static const String zuker4 = 'assets/svgs/azkar/zuker_4.svg';
 }
