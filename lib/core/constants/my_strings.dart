@@ -143,4 +143,13 @@ class MyStrings {
   static const String alHaj = 'الحج';
   static const String alBosla = 'البوصلة';
   static const String alAzkar = 'الأذكار';
+
+  /////////////// bosla page \\\\\\\\\\\\\\\\\
+  static const String err1 = 'خطأ في قراءة حساس البوصلة';
+  static const String err2 = 'جهازك لا يدعم حساس البوصلة';
+  static const String qiblaAngle = 'زاوية القبلة:';
+  static const String qiblaCorrect =
+      'الهاتف باتجاه القبلة الصحيح الآن، يمكنك البدء بالصلاة.';
+  static const String note =
+      'قم بتدوير الهاتف ببطء حتى يتطابق السهم مع علامة الكعبة بالأعلى.';
 }

@@ -43,6 +43,10 @@ class MyImages {
   static const String alBosla = 'assets/svgs/navigation_bar/bosla.svg';
   static const String alHaj = 'assets/svgs/navigation_bar/haj.svg';
 
+  /////////////// bosla page \\\\\\\\\\\\\\\\\
+  static const String zakrfa = 'assets/svgs/bosla/zakrfa.svg';
+  static const String kaba = 'assets/svgs/bosla/kaba.svg';
+
   /////////////// azkar \\\\\\\\\\\\\\\\\
   static const String zuker1 = 'assets/svgs/azkar/zuker_1.svg';
   static const String zuker2 = 'assets/svgs/azkar/zuker_2.svg';
