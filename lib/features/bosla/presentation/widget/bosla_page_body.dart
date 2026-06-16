@@ -34,35 +34,29 @@ class _BoslaPageBodyState extends State<BoslaPageBody> {
         ),
         centerTitle: true,
       ),
-      // استخدام StreamBuilder للاستماع لحساس البوصلة
+
       body: StreamBuilder<CompassEvent>(
         stream: FlutterCompass.events,
         builder: (context, snapshot) {
-          // في حال وجود خطأ أو عدم دعم الحساس في الجهاز
           if (snapshot.hasError) {
             return Center(child: Text(MyStrings.err1));
           }
-          // انتظر حتى تبدأ البيانات بالتدفق
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(
               child: CircularProgressIndicator(color: Color(0xFF0F4A36)),
             );
           }
-          // جلب الاتجاه الحالي (Heading)
           double? direction = snapshot.data?.heading;
-          // إذا كان الجهاز لا يحتوي على حساس بوصلة (Magnetometer)
+
           if (direction == null) {
             return Center(child: Text(MyStrings.err2));
           }
-          // 1. حساب اتجاه القبلة بناءً على زاوية الهاتف الحالية
           double qiblaDirection = _qiblaAngle - direction;
           double qiblaRadians = qiblaDirection * (math.pi / 180 * -1);
-          // التحقق من المحاذاة مع نسبة خطأ مقبولة ±5 درجات
           bool isAligned = (direction - _qiblaAngle).abs() < 5;
           return Column(
             children: [
               const SizedBox(height: 20),
-              // الوجّهات الصغيرة المفصولة مسبقاً تعمل هنا تلقائياً بشكل ديناميكي
               QiblaInstructionCard(isAligned: isAligned),
               const Spacer(),
               QiblaCompassVisual(

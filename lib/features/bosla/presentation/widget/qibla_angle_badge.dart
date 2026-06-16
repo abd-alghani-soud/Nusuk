@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../../core/constants/my_strings.dart';
 
-// 3. وجّهة شارة زاوية القبلة
+
 class QiblaAngleBadge extends StatelessWidget {
   final double qiblaAngle;
 

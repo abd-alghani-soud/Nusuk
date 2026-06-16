@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_colors.dart';
 import 'package:nusuk/core/constants/my_strings.dart';
 
-// 1. وجّهة بطاقة الإرشادات
 class QiblaInstructionCard extends StatelessWidget {
   final bool isAligned;
 

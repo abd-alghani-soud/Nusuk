@@ -4,12 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:nusuk/core/constants/my_images.dart';
 import '../../../../core/constants/my_colors.dart';
 
-// 2. وجّهة البوصلة الدوارة وعلامة الهدف
 
 class QiblaCompassVisual extends StatelessWidget {
-  final double
-  platformDirection; // القيمة القادمة من snapshot.data?.heading مباشرة
-  final double qiblaAngle; // زاوية القبلة الثابتة (160.3)
+  final double platformDirection;
+  final double qiblaAngle;
   final bool isAligned;
 
   const QiblaCompassVisual({
@@ -21,10 +19,7 @@ class QiblaCompassVisual extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 1. حساب تدوير خلفية البوصلة (لتشير الاتجاهات إلى أقطاب الأرض الحقيقية)
     double compassRadians = platformDirection * (math.pi / 180 * -1);
-
-    // 2. حساب تدوير السهم (زاوية القبلة - زاوية الهاتف الحالية)
     double qiblaDirection = qiblaAngle - platformDirection;
     double qiblaRadians = qiblaDirection * (math.pi / 180 * -1);
 
@@ -32,14 +27,11 @@ class QiblaCompassVisual extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: [
-          // الدائرة الخارجية الثابتة
           Container(
-            child: SvgPicture.asset(MyImages.zakrfa),
             width: 280,
             height: 280,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-
               border: Border.all(
                 color: isAligned
                     ? const Color(0xFF1B8A5A).withOpacity(0.5)
@@ -47,9 +39,8 @@ class QiblaCompassVisual extends StatelessWidget {
                 width: 4,
               ),
             ),
+            child: SvgPicture.asset(MyImages.zakrfa),
           ),
-
-          // الخلفية الدوارة (الاتجاهات الأربعة) - تدور مع أقطاب الأرض
           AnimatedRotation(
             turns: compassRadians / (2 * math.pi),
             duration: const Duration(milliseconds: 200),
@@ -111,8 +102,6 @@ class QiblaCompassVisual extends StatelessWidget {
               ),
             ),
           ),
-
-          // أيقونة المسجد (الهدف) - ثابتة في أعلى الشاشة كمؤشر لمقدمة الهاتف
           Positioned(
             top: 10,
             child: AnimatedContainer(
@@ -127,8 +116,6 @@ class QiblaCompassVisual extends StatelessWidget {
               child: SvgPicture.asset(MyImages.kaba, height: 30, width: 30),
             ),
           ),
-
-          // السهم الدوّار - يتجه نحو القبلة بشكل مستقل
           AnimatedRotation(
             turns: qiblaRadians / (2 * math.pi),
             duration: const Duration(milliseconds: 200),
